@@ -10,6 +10,10 @@ int main()
     ofstream MyFile("example.txt");
     // Write to the file
     MyFile << "Hello, World!\n";
+    MyFile << "Hello, World!\n";
+    MyFile << "Hello, World!\n";
+    MyFile << "Hello, World!\n";
+    MyFile << "Hello, World!\n";
     MyFile << "This is a test file.\n";
     // Close the file
     MyFile.close();
